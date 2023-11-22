@@ -21,11 +21,15 @@ body {
 /* Header */
 header {
     background-color: #171717;
+    color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header h1 {
@@ -57,6 +61,32 @@ h1 {
     border-bottom: 1px solid #ffffff;
 
 }
+
+/* Navigation Bar Dropdown Toggle */
+nav {
+    position: absolute;
+    background-color: #171717;
+    width: 100%;
+    left: 0;
+    padding-top: 0 1rem;
+    box-shadow: 0 2px 2px #ffffff;
+    display: none;
+    top: 100%;
+}
+
+/* Navigation Toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 /* Main */
 main {
     background-color: lightblue;
