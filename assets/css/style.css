@@ -113,6 +113,30 @@ footer {
     color: #ffffff;
 }
 
+/* Bio Page */
+
+#Caesar-Beginning {
+    height: 1000px;
+    width: 100%;
+    background: url(../images/JCg.jpg) no-repeat center center/cover;
+    position: relative;
+    margin-bottom: 2px;
+}
+
+#Caesar-Notable-Moments {
+    height: 1000px;
+    width: 100%;
+    background: url(../images/JuliusCaesarRomeg.jpg) no-repeat center center/cover;
+    position: relative;
+    margin-bottom: 2px;
+}
+
+#Caesar-Death {
+    height: 1000px;
+    width: 100%;
+    background: url(../images/LaMorteDiCesare.jpg) no-repeat center center/cover;
+    position: relative;
+}
 /* Media Query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
     /* Header */
