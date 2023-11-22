@@ -14,13 +14,19 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic Project Styles */
-    color: ;
+    color: rgb(39, 39, 39);
     font-family: 'Lato', sans-serif;
 }
 
 /* Header */
 header {
-    background-color: blueviolet;
+    background-color: #171717;
+    color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #ffffff;
 }
 
 h1 {
@@ -28,11 +34,11 @@ h1 {
 }
 /* Main */
 main {
-    background-color: gold;
+    background-color: lightblue;
     /* Makes main element take up surplus space and push down the footer */
         flex: 1 0 auto;
 }
 /* Footer */
 footer  {
-    background-color: red;
+    background-color: yellow;
 }
