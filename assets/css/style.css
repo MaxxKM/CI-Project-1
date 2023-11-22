@@ -95,8 +95,22 @@ main {
         margin-top: 47px;
 }
 /* Footer */
-footer  {
-    background-color: yellow;
+footer {
+    background-color: #171717;
+}
+
+#social-networks {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 170%;
+    padding: 5%;
+    color: #ffffff;
 }
 
 /* Media Query: tablets and larger (768px and up)*/
