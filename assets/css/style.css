@@ -21,7 +21,6 @@ body {
 /* Header */
 header {
     background-color: #171717;
-    color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -29,8 +28,19 @@ header {
     box-shadow: 0 2px 2px #ffffff;
 }
 
+header h1 {
+    letter-spacing: 2px;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
 h1 {
     font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
 }
 /* Main */
 main {
