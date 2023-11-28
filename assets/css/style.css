@@ -68,7 +68,7 @@ nav {
     background-color: #171717;
     width: 100%;
     left: 0;
-    padding-top: 0 1rem;
+    padding: 0 1rem;
     box-shadow: 0 2px 2px #ffffff;
     display: none;
     top: 100%;
@@ -113,10 +113,49 @@ footer {
     color: #ffffff;
 }
 
+#Caesar-Hero {
+    width: 100%;
+    height: 95vh;
+    background: url(../images/JuliusCaesarRomeg.jpg) no-repeat center center/cover;
+    position: relative;
+    background: linear-gradient(black);
+
+}
+
+#Main-Caesar-Text {
+    padding: 30rem 1rem 0 1rem;
+}
+
+#Main-Caesar-Text > p {
+    color: #ffffff;
+    font-size: large;
+    text-align: center;
+    letter-spacing: 1px;
+    opacity: 1;
+    border: 0.5px solid #171717;
+    background-color: rgba(0, 0, 0, .85);
+}
+
+#Read-More1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 3rem;
+    font-size: larger;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
 /* Bio Page */
 
 #Caesar-Beginning {
-    height: 1000px;
+    height: 600px;
     width: 100%;
     background: url(../images/JCg.jpg) no-repeat center center/cover;
     position: relative;
@@ -136,6 +175,31 @@ footer {
     width: 100%;
     background: url(../images/LaMorteDiCesare.jpg) no-repeat center center/cover;
     position: relative;
+}
+
+div > h1 {
+    text-align: center;
+    font-size: 200%;
+    color: #ffffff;
+    letter-spacing: 2px;
+    padding: 1rem 0;
+}
+
+.Bio-Headings {
+    opacity: 1;
+    border: 0.5px solid #171717;
+    background-color: rgba(0, 0, 0, .25);
+}
+
+#Bio-Texts {
+    color: #ffffff;
+    margin: 3rem 0;
+    padding: 1rem 2rem;
+    text-align: center;
+    opacity: 1;
+    border: 0.5 px solid #171717;
+    background-color: rgba(0, 0, 0, .75);
+    letter-spacing: 1px;
 }
 /* Media Query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
@@ -171,6 +235,11 @@ footer {
         /* Push down main content due to larger header */
         margin-top: 79px;
     }
+
+    /* Bio Content */
+        div>h1 {
+            font-size: 300%;
+        }
 }
 
 /* Media Query: laptops and larger (992px and up)*/
@@ -178,4 +247,9 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #ffffff;
     }
+
+    /* Bio Content */
+        #Bio-Texts {
+            width: 33%;
+        }
 }
