@@ -252,7 +252,7 @@ div > h1 {
 
     #Main-Caesar-Text > p {
         letter-spacing: 3px;
-        font-size: 35px;
+        font-size: 25px;
     }
 
     #Read-More1 {
@@ -272,9 +272,14 @@ div > h1 {
         border-bottom: 1px solid #ffffff;
     }
 
+    /* Main Content */
     #Vercingetorix-Hero {
         background: url(../images/vercingetorix.jpg) no-repeat center center/cover;
     }
+
+        #Main-Caesar-Text>p {
+            font-size: 35px;
+        }
 
     /* Bio Content */
         #Bio-Texts {
