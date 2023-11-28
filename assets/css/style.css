@@ -7,11 +7,6 @@
     margin: 0;
 }
 
-/* Stops anchor scrolling from scrolling to far down */
-html {
-    scroll-padding-top: 43px;
-}
-
 /* Generic Styles */
 body {
     min-height: 100vh;
@@ -125,7 +120,7 @@ footer {
 }
 
 #Main-Caesar-Text {
-    padding: 30rem 1rem 0 1rem;
+    padding: 40vh 0;
 }
 
 #Main-Caesar-Text > p {
@@ -146,7 +141,7 @@ footer {
     color: #ffffff;
     position: absolute;
     bottom: 0;
-    padding-bottom: 3rem;
+    padding: 3rem 0;
     font-size: larger;
     letter-spacing: 2px;
 }
@@ -242,9 +237,9 @@ div > h1 {
     }
 
     /* Main Content */ 
-        html {
-            scroll-padding-top: 75px;
-        }
+     html {
+        scroll-padding-top: 75px;
+    }
 
     main {
         /* Push down main content due to larger header */
@@ -257,6 +252,7 @@ div > h1 {
 
     #Main-Caesar-Text > p {
         letter-spacing: 3px;
+        font-size: 35px;
     }
 
     #Read-More1 {
