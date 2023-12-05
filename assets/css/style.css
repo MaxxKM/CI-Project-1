@@ -120,13 +120,13 @@ footer {
     top: 20%;
 }
 
-#Main-Caesar-Text {
+#Main-Page-Text {
     position: relative;
     top: 45%;
     width: 100%;
 }
 
-#Main-Caesar-Text p {
+#Main-Page-Text p {
     color: #ffffff;
     font-size: large;
     text-align: center;
@@ -136,7 +136,7 @@ footer {
     background-color: rgba(0, 0, 0, .85);
 }
 
-#Read-More1 {
+#Read-More {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,6 +160,7 @@ a {
         background: url(../images/VerSolo.jpg) no-repeat center center/cover;
         position: relative;
 }
+
 
 /* Bio Page */
 
@@ -249,12 +250,12 @@ div > h1 {
         margin-top: 79px;
     }
 
-    #Main-Caesar-Text > p {
+    #Main-Page-Text p {
         letter-spacing: 3px;
         font-size: 25px;
     }
 
-    #Read-More1 {
+    #Read-More {
         letter-spacing: 4px;
         padding-bottom: 6rem;
     }
@@ -276,16 +277,27 @@ div > h1 {
         background: url(../images/vercingetorix.jpg) no-repeat center center/cover;
     }
 
-    #Main-Caesar-Text {
+    #Main-Page-Text {
         position: relative;
         top: 50%;
     }
-    #Main-Caesar-Text>p {
+    #Main-Page-Text p {
         font-size: 35px;
         }
 
     /* Bio Content */
         #Bio-Texts {
-            width: 33%;
+        width: 33%;
         }
+}
+
+/* Media Query: 4k and larger (2560px and up)*/
+@media screen and (min-width: 2560px) {
+    #Main-Page-Text p {
+        font-size: 50px;
+    }
+
+    #Read-More {
+        font-size: 45px;
+    }
 }
