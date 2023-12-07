@@ -306,9 +306,28 @@ img {
         font-size: 35px;
         }
 
+
     /* Bio Content */
         #Bio-Texts {
         width: 33%;
+        }
+}
+
+/* Media Query: Large Laptops and higher */
+@media screen and (min-width: 1440px) {
+
+    /* Story Section */
+        
+    #Text-Image-Box {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2rem;
+        text-align: center;
+        align-items: center;
+        }
+        
+    #Story-Text,#images {
+        flex: 1;
         }
 }
 
