@@ -304,8 +304,7 @@ img {
     }
     #Main-Page-Text p {
         font-size: 35px;
-        }
-
+        }   
 
     /* Bio Content */
         #Bio-Texts {
@@ -326,9 +325,13 @@ img {
         align-items: center;
         }
         
-    #Story-Text,#images {
+    #Story-Text, #images {
         flex: 1;
         }
+    
+    .Reverse {
+        flex-direction: row-reverse;
+    }
 }
 
 /* Media Query: 4k and larger (2560px and up)*/
