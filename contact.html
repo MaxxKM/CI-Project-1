@@ -32,14 +32,45 @@
         <nav>
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="bio.html">Bio</a></li>
                 <li><a href="contact.html" class="active">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main -->
-    <main>Main</main>
+    <main>
+        <section id="Contact-Form">
+            <form id="forms" action="https://formdump.codeinstitute.net" method="POST">
+                <h2>Feedback!</h2>
+                <input type="text">
+            </form>
+
+            <form id ="forms" action="https://formdump.codeinstitute.net" method="POST">
+                <h2>Contact Us!</h2>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="contact-input" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="contact-input" required>
+                <br>
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" class="contact-input" required>
+                <br>
+                <label for="radio-buttons">Sign up to our Newsletter?</label>
+                <div id="radio-buttons">
+                    <label for="newsletter-yes">Yes</label>
+                    <input type="radio" name="newsletter-section" id="newsletter-yes" value="yes" required checked>
+                </div>
+                <div>
+                    <label for="newsletter-no">No</label>
+                    <input type="radio" name="newsletter-section" id="newsletter-no" value="no" required>
+                </div>
+                <div>
+                    <button type="submit" class="submit-button">Submit!</button>
+                </div>
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>

@@ -93,24 +93,6 @@ main {
         flex: 1 0 auto;
         margin-top: 47px;
 }
-/* Footer */
-footer {
-    background-color: #171717;
-}
-
-#social-networks {
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px 0;
-    list-style-type: none;
-}
-
-#social-networks i {
-    font-size: 170%;
-    padding: 5%;
-    color: #ffffff;
-}
 
 #Caesar-Hero {
     width: 100%;
@@ -177,22 +159,7 @@ a {
     margin-bottom: 2px;
 }
 
-#Caesar-Notable-Moments {
-    height: 1000px;
-    width: 100%;
-    background: url(../images/JuliusCaesarRomeg.jpg) no-repeat center center/cover;
-    position: relative;
-    margin-bottom: 2px;
-}
-
-#Caesar-Death {
-    height: 1000px;
-    width: 100%;
-    background: url(../images/Battle-of-Alesia.jpg) no-repeat center center/cover;
-    position: relative;
-}
-
-div > h1 {
+div>h1 {
     text-align: center;
     font-size: 200%;
     color: #ffffff;
@@ -228,22 +195,64 @@ h2 {
 img {
     width: 100%;
 }
-
-.Bio-Headings {
-    opacity: 1;
-    border: 0.5px solid #171717;
-    background-color: rgba(0, 0, 0, .25);
+/* Footer */
+footer {
+    background-color: #171717;
+    box-shadow: 2px 0 3px #ffffff;
 }
 
-#Bio-Texts {
-    color: #ffffff;
-    margin: 3rem 0;
-    padding: 1rem 2rem;
+#social-networks {
     text-align: center;
-    opacity: 1;
-    border: 0.5 px solid #171717;
-    background-color: rgba(0, 0, 0, .75);
-    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 170%;
+    padding: 5%;
+    color: #ffffff;
+}
+
+/* Contact Us */
+#Contact-Form {
+    width: 100%;
+    height: 95vh;
+    background: url(../images/JCg.jpg) no-repeat center center/cover;
+    position: relative;
+    top: 20%;
+    background-position: 0%;
+}
+
+#forms {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .65);
+    padding: 20px;
+    margin: 0 20px 20px;
+}
+
+#forms > h2 {
+    margin-bottom: 10px;
+}
+
+.contact-input {
+    background: transparent;
+    width: 100%;
+    height: 20px;
+    border: 1.5px solid #ffffff;
+    padding: 4px 0;
+    margin: 8px 0;
+}
+
+#radio-buttons {
+    padding: 5px;
+}
+
+.submit-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: larger;
 }
 /* Media Query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
@@ -293,11 +302,6 @@ img {
         letter-spacing: 4px;
         padding-bottom: 6rem;
     }
-
-    /* Bio Content */
-        div>h1 {
-            font-size: 300%;
-        }
 }
 
 /* Media Query: laptops and larger (992px and up)*/
