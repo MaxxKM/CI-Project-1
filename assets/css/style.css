@@ -204,6 +204,18 @@ div > h1 {
     padding-top: 1rem;
 }
 
+h2 {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: underline;
+    letter-spacing: 1.5px;
+    text-underline-offset: 5px;
+}
+
+.h2-pad {
+    padding-top: 1rem;
+}
+
 #Story-Text p {
     color: #ffffff;
     text-align: center;
@@ -333,6 +345,9 @@ img {
         flex-direction: row-reverse;
         padding: 0;
     }
+
+    .h2-pad {
+        padding-top: 0;
 }
 
 /* Media Query: 4k and larger (2560px and up)*/
