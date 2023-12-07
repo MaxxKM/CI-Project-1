@@ -235,6 +235,7 @@ footer {
 
 #forms > h2 {
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .contact-input {
@@ -326,9 +327,22 @@ footer {
         }   
 
     /* Contact US */
-        #Contact-Form {
+    #Contact-Form {
         background-position: center;
-        }
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #Contact-Forms > #forms {
+        text-align: center;
+    }
+
+    #forms {
+        width: 30%;
+        height: 50%;
+        margin-top: 75px;
+    }
 }
 
 /* Media Query: Large Laptops and higher */
