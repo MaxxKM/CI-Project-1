@@ -224,6 +224,7 @@ footer {
     top: 20%;
     background-position: 0%;
     padding-top: 2rem;
+    overflow: scroll;
 }
 
 #forms {
@@ -240,7 +241,7 @@ footer {
 }
 
 .forms-pad {
-    padding-bottom: 2rem;
+    
 }
 
 .contact-input {
@@ -286,6 +287,7 @@ footer {
     width: 100%;
     background-position: top -5px left -500px;
     padding-top: 2rem;
+    overflow: scroll;
 }
 
 #about-info {
