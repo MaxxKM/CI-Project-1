@@ -239,6 +239,10 @@ footer {
     text-decoration: none;
 }
 
+.forms-pad {
+    padding-bottom: 2rem;
+}
+
 .contact-input {
     background: transparent;
     color: #ffffff;
