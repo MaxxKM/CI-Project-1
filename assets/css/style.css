@@ -97,7 +97,7 @@ main {
 #Caesar-Hero {
     width: 100%;
     height: 95vh;
-    background: url(../images/JuliusCaesarRomeg.jpg) no-repeat center center/cover;
+    background: url(../images/juliuscaesar.jpg) no-repeat center center/cover;
     position: relative;
     top: 20%;
 }
@@ -147,14 +147,14 @@ a {
 #Vercingetorix-Hero {
     width: 100%;
     height: 95vh;
-    background: url(../images/VerSolo.jpg) no-repeat center center/cover;
+    background: url(../images/versolo.jpg) no-repeat center center/cover;
     position: relative;
 }
 
 #Alesia-Hero {
     width: 100%;
     height: 95vh;
-    background: url(../images/Battle-of-Alesia.jpg) no-repeat center center/cover;
+    background: url(../images/battle-of-alesia.jpg) no-repeat center center/cover;
     position: relative;
     margin-bottom: 2px;
 }
@@ -219,7 +219,7 @@ footer {
 #Contact-Form {
     width: 100%;
     height: 95vh;
-    background: url(../images/JCg.jpg) no-repeat center center/cover;
+    background: url(../images/jc.jpg) no-repeat center center/cover;
     position: relative;
     top: 20%;
     background-position: 0%;
@@ -274,6 +274,31 @@ footer {
     color: #ffffff;
     padding: 3px 6px;
 }
+
+/* About Us*/
+#about-us {
+    background: url(../images/march.jpg);
+    height: 95vh;
+    width: 100%;
+    background-position: top -5px left -500px;
+    padding-top: 2rem;
+}
+
+#about-info {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .85);
+    padding: 20px;
+    margin: 250px 20px 0px;
+    border-radius: 20px;
+}
+
+#about-info > p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+}
+
 /* Media Query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
     /* Header */
@@ -322,6 +347,10 @@ footer {
         letter-spacing: 4px;
         padding-bottom: 6rem;
     }
+
+    #about-us {
+        background-position: top -5px left -250px;
+    }
 }
 
 /* Media Query: laptops and larger (992px and up)*/
@@ -360,6 +389,10 @@ footer {
         height: 50%;
         margin-top: 75px;
     }
+
+    #about-info {
+        margin-top: 350px;
+    }
 }
 
 /* Media Query: Large Laptops and higher */
@@ -385,6 +418,20 @@ footer {
 
     .h2-pad {
         padding-top: 0;
+    }
+
+    #about-us {
+    background-position: top left -250px;
+    }
+
+    #about-info {
+        width: 50%;
+        margin:100px 0px 0px 45%;
+    }
+
+    #about-info > p{
+        font-size: 40px;
+    }
 }
 
 /* Media Query: 4k and larger (2560px and up)*/
