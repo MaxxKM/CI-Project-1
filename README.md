@@ -14,13 +14,12 @@ This is a Website that explores the story of the great Battle of Alesia. The fig
         3. As a first time visitor, I want to have reliable and trusted information about the topic at hand.
 
    -  #### Returning Visitor Goals
-        1. As a returning visitor, I want to find information about the history of this battle.
+        1. As a returning visitor, I want to find information about the history.
         2. As a returning visitor, I want to be able to contact the team behind the website and be able to follow up and any questions or queries I may have.
         3. As a returning visitor, I want to find social media links to follow up on more information.
    
    -  #### Frequent User Goals
         1. As a frequent user, I want to see if there is any new or updated information about this topic or new releases of events in history.
-        2. As a frequent user, I want to sign up to a newsletter for future updates and new blogs covering historical topics.
 
 
 - ### Design
@@ -65,15 +64,57 @@ This is a Website that explores the story of the great Battle of Alesia. The fig
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ### Framesworks, Libraries & Programmes Used
-    1. [Google Fonts](https://fonts.google.com/)
+
+1. [Google Fonts](https://fonts.google.com/)
     Google Fonts was used to styles the font throughout the website.
-    2. [Font Awesome](https://fontawesome.com/)
+2. [Font Awesome](https://fontawesome.com/)
     Font Awesome was used to add the icons for the social media links in the footer, as well as the burger icon in the navbar for smaller screens.
-    3. [Git](https://git-scm.com)
+3. [Git](https://git-scm.com)
     Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
-    4. [GitHub](https://github.com/)
+4. [GitHub](https://github.com/)
     GitHub was used to store the projects code after being pushed by Git.
-    5. [Balsamiq](https://balsamiq.com)
+5. [Balsamiq](https://balsamiq.com)
     Balsamiq was used to make the wireframes, to plan the visual style and layout of the website before the initial code was written.
-    6. [TinyJPG](https://tinypng.com/)
+6. [TinyJPG](https://tinypng.com/)
     TinyPNG was used to compress the images throughout the website and make the loading times faster and friendly for the users.
+
+## Testing
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+ - [W3C Markup Validator](https://validator.w3.org/)
+ - [W3C CSS VALDATOR](https://jigsaw.w3.org/css-validator/)
+![Image of Validation](assets/images/readme-images/valid.png/) 
+
+### Testing User Stories from User Experience (UX) Section
+
+ - #### First Time Visitor Goals
+   1. As a first time visitor, I want to understand and learn about the topic of the website.
+      1. When users open the site, they are greeted with a clean and simple first page. The navigation bar is easy to read and easy to navigate through the pages.
+      2. The main image is powerful yet clean. It is accompanied by small text with a black background for ease of reading, of a brief intro to the story.
+      3. Users can either scroll or click the button that will automatically bring them down to the next intro section.
+   2. As a first time visitor, I want to be able to easily navigate through the website and also have visual help with guidance of the website and topics.
+      1. The navigation bar is clean and has visual help to show users what pages they are currently on. If a user wants to navigate to a different page this is highlighted when they hover over the page link.
+      2. The navigation bar always shows each page so that users can always and easily go back to their previous page so they never feel trapped.
+      3. The forms sections is clean and easily readable. When customers fill out their details, the form will show them what is required when filling it out so they are never confused.  
+   3. As a first time visitor, I want to have reliable and trusted information about the topic at hand.
+      1. The information about the story is always accumpanied by famous images that will support the reliability of the site. 
+      2. All the information throughout the website has been gathered by multiple trusted sources to tell the story in short but precise text.
+  
+- #### Returning Visitor Goals
+
+   1. As a returning visitor, I want to find information about the history.
+      1. The about us section will provide users an insight of our motives and enthusiasm for history, that will give them an view of the passion behind the research and topics.
+      2. Users can sign up to a newsletter through the contact forms, allowing them to keep up to date on previous or new historical topics. 
+   2. As a returning visitor, I want to be able to contact the team behind the website and be able to follow up and any questions or queries I may have.
+      1. All social media links are shown in the footer, so that users can follow us on multiple platforms and reach out if needed or wanted.
+      2. Users can use the contact form to send us their details so that we can reach out and start up a conversation.
+      3. Users can submit feedback about the site and topics, or give suggestions on the next topic that will be covered.  
+   3. As a returning visitor, I want to find social media links to follow up on more information.
+      1. Users can find all social media accounts on the footer, to follow us on updates.
+      2. Users can find like minded people in the community for discussions. They can also give input on the future topics.
+      3. Customers have easy access to a newsletter that will be emailed to them frequently.
+
+- #### Frequent Visitor Goals
+
+   1. As a frequent user, I want to see if there is any new or updated information about this topic or new releases of events in history.
+      1. Through the newsletter, users will recieve all information and updates on new releases
+ 
