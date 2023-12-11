@@ -32,3 +32,14 @@ This is a Website that explores the story of the great Battle of Alesia. The fig
     - Imagery is incredibly informational and powerful when it comes to historical topics, since we need visual help on understanding how things would/could have looked back then. The website shows many powerful images of the main people involved in the battle, as well as some famous paintings of the events. Images are used beside informational text to further enhance the users imagation when learning.
 
 - ### Wireframes
+    - #### Home Page Wireframe -
+    - #### About Page Wireframe -
+    - #### Contact Page Wireframe -
+
+## Features
+    - #### Navigation Bar
+    - #### Footer
+    - #### Scroll Feature
+    - #### Forms
+    - #### Responsiveness
+
