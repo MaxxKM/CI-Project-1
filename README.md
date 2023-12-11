@@ -32,11 +32,6 @@ This is a Website that explores the story of the great Battle of Alesia. The fig
   - #### Imagery
     - Imagery is incredibly informational and powerful when it comes to historical topics, since we need visual help on understanding how things would/could have looked back then. The website shows many powerful images of the main people involved in the battle, as well as some famous paintings of the events. Images are used beside informational text to further enhance the users imagation when learning.
 
-- ### Wireframes
-    - #### Home Page Wireframe -
-    - #### About Page Wireframe -
-    - #### Contact Page Wireframe -
-
 ## Features
   - #### Navigation Bar
     - Added features to the navigation bar such as the active page being underlined and if mouse is hovering over another page it will also be highlighted by an underline. This 
@@ -84,7 +79,6 @@ This is a Website that explores the story of the great Battle of Alesia. The fig
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
  - [W3C Markup Validator](https://validator.w3.org/)
  - [W3C CSS VALDATOR](https://jigsaw.w3.org/css-validator/)
-![Image of Validation](assets/images/readme-images/valid.png/) 
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -150,7 +144,7 @@ I also deployed a preview of the site throughout the process through a local por
 
 ### Code
  - The navigation bar was followed along by [Code Institute's](https://codeinstitute.net/ie/) "Love Running" Project tutorials.
- - The scroll button used for 'click to view more' was helped by [Reddit](https://www.reddit.com/r/csshelp/) CSS form, since I was having problems with the buttom scrolling too far 
+ - The scroll button used for 'click to view more' was helped by [Reddit](https://www.reddit.com/r/csshelp/) CSS form, since I was having problems with the button scrolling too far 
  past the section.   
 
  ### Content & Media
