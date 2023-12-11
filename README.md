@@ -38,18 +38,42 @@ This is a Website that explores the story of the great Battle of Alesia. The fig
 
 ## Features
   - #### Navigation Bar
-    Added features to the navigation bar such as the active page being underlined and if mouse is hovering over another page it will also be highlighted by an underline.
+    - Added features to the navigation bar such as the active page being underlined and if mouse is hovering over another page it will also be highlighted by an underline. This 
+    allows the user to know which page they are currently on, as well as visual aid of what page they will be going onto next if they click.
     ![Image of sites navigation bar](assets/images/readme-images/nav.jpg)
   - #### Footer
-    Added social media links and icons to the footer. All links open in a new tab.
+    - Added social media links and icons to the footer. All links open in a new tab. This is an easy and visually pleasing way to have users gain access to your social media pages.
+    The icons make the aesthetic of the page nicer, rather than have words or links to click.
     ![Image of sites footer](assets/images/readme-images/footer.jpg)
   - #### Scroll Feature
-    Added scroll feature for the first section on the main page. When clicked it will scroll down to the next section.
+    - Added scroll feature for the first section on the main page. When clicked it will scroll down to the next section. The allows users, especially on mobile to quickly navigate
+    the opening slides, since the opening slide don't have much text, rather a brief introduction followed by powerful images.
     ![Image of sites scroll feature](assets/images/readme-images/scroll.jpg)
   - #### Forms
-    Added forms section for contact and feedback sections. Added required feature to the contact form.
+    - Added forms section for contact and feedback sections. Added required feature to the contact form. The contact form allows users to send us their personal details, such as
+    name and address, to send off to us to reply. This also allows users to sign up for a newsletter. The feedback form allows users to input long text, and send their feedback to us.
     ![Image of sites forms section](assets/images/readme-images/forms.jpg)
   - #### Responsiveness
-    Website is responsive to all screen sizes. For example, on mobile the nav bar is activated through the use of the burger icon.
+    - Website is responsive to all screen sizes. For example, on mobile the nav bar is activated through the use of the burger icon. The text is still overlayed on certain images, so the user still experiences the visual aspects of the site. for longer text, the images shortly follow the text, to allow users to visualise what they have just read.
     ![Image of sites responsiveness](assets/images/readme-images/response.png)
   
+## Technologies Used
+
+### Languages used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+### Framesworks, Libraries & Programmes Used
+    1. [Google Fonts](https://fonts.google.com/)
+    Google Fonts was used to styles the font throughout the website.
+    2. [Font Awesome](https://fontawesome.com/)
+    Font Awesome was used to add the icons for the social media links in the footer, as well as the burger icon in the navbar for smaller screens.
+    3. [Git](https://git-scm.com)
+    Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
+    4. [GitHub](https://github.com/)
+    GitHub was used to store the projects code after being pushed by Git.
+    5. [Balsamiq](https://balsamiq.com)
+    Balsamiq was used to make the wireframes, to plan the visual style and layout of the website before the initial code was written.
+    6. [TinyJPG](https://tinypng.com/)
+    TinyPNG was used to compress the images throughout the website and make the loading times faster and friendly for the users.
