@@ -4,6 +4,8 @@ View the website [Here](https://maxxkm.github.io/CI-Project-1/)
 
 This is a Website that explores the story of the great Battle of Alesia. The fight between Julius Caesar and Vercingetorix. This website aims to give visual and textual information about this part of history.
 
+![](assets/images/readme-images/nav.jpg)
+
 ## User Experience (UX)
 
 -  ### User Stories
@@ -144,3 +146,20 @@ I also deployed a preview of the site throughout the process through a local por
   - I would select the 'Port' tab in the bottom right.
   - I would select Port 8000 and click 'open in a new tab'.
  
+## Credits
+
+### Code
+ - The navigation bar was followed along by [Code Institute's](https://codeinstitute.net/ie/) "Love Running" Project tutorials.
+ - The scroll button used for 'click to view more' was helped by [Reddit](https://www.reddit.com/r/csshelp/) CSS form, since I was having problems with the buttom scrolling too far 
+ past the section.   
+
+ ### Content & Media
+  - All content was written by the developer, but helped with multiple sources (including the images) such as ... 
+    - [Wikipedia](https://en.wikipedia.org/wiki/Battle_of_Alesia)
+    - [Britannica](https://www.britannica.com/event/Battle-of-Alesia-52-BCE)
+    - [ImperiumRomanum](https://imperiumromanum.pl/en/battles/battle-of-alesia/)
+    - [ThoughtCo](https://www.thoughtco.com/gallic-wars-battle-of-alesia-2360869)
+
+### Acknowledgements
+ - My mentor for continued help and feedback throughout the project.
+ - The Code Institute tutor support team for help with problems within the code.   
