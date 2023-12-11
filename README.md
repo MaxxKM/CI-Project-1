@@ -37,9 +37,10 @@ This is a Website that explores the story of the great Battle of Alesia. The fig
     - #### Contact Page Wireframe -
 
 ## Features
-    - #### Navigation Bar
-    - #### Footer
-    - #### Scroll Feature
-    - #### Forms
-    - #### Responsiveness
-
+  - #### Navigation Bar
+  - ![Image of sites navigation bar](/workspaces/CI-Project-1/assets/images/readme-images/nav.jpg)
+  - #### Footer
+  - #### Scroll Feature
+  - #### Forms
+  - #### Responsiveness
+  
