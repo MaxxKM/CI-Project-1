@@ -38,9 +38,18 @@ This is a Website that explores the story of the great Battle of Alesia. The fig
 
 ## Features
   - #### Navigation Bar
-  - ![Image of sites navigation bar](/workspaces/CI-Project-1/assets/images/readme-images/nav.jpg)
+    Added features to the navigation bar such as the active page being underlined and if mouse is hovering over another page it will also be highlighted by an underline.
+    ![Image of sites navigation bar](assets/images/readme-images/nav.jpg)
   - #### Footer
+    Added social media links and icons to the footer. All links open in a new tab.
+    ![Image of sites footer](assets/images/readme-images/footer.jpg)
   - #### Scroll Feature
+    Added scroll feature for the first section on the main page. When clicked it will scroll down to the next section.
+    ![Image of sites scroll feature](assets/images/readme-images/scroll.jpg)
   - #### Forms
+    Added forms section for contact and feedback sections. Added required feature to the contact form.
+    ![Image of sites forms section](assets/images/readme-images/forms.jpg)
   - #### Responsiveness
+    Website is responsive to all screen sizes. For example, on mobile the nav bar is activated through the use of the burger icon.
+    ![Image of sites responsiveness](assets/images/readme-images/response.png)
   
