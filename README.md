@@ -116,5 +116,31 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - #### Frequent Visitor Goals
 
    1. As a frequent user, I want to see if there is any new or updated information about this topic or new releases of events in history.
-      1. Through the newsletter, users will recieve all information and updates on new releases
+      1. Through the newsletter, users will recieve all information and updates on new releases.
+
+### Further Testing 
+  - The website was viewed on multiple devices such as iphone 15, laptop, tablet, PC.
+  - All page links and buttons were tested to ensure they are correctly working and have the correct links.
+  - Family and Friends were sent links to the website to ensure no bugs were found on their own devices.
+
+### Known bugs
+  - Navigation bar was resizing itself throughout the project. This was fixed with the help of tutors, the code was not saving itself correctly but has been fixed.
+  - Forms were falling through the footer and extending the page at certain points.
+
+## Deployment
+
+### Github pages
+The project was deployed with GitHub using these steps...
+  - Log in to Github and locate the GitHub repository 'CI-Project-1'
+  - At the top of the repository locate the 'Settings' button.
+  - Scroll down the settings page until you locate the 'GitHub Pages'.
+  - Under 'Source', select 'none' and select master 'branch'.
+  - The page will refresh
+  - Scroll back down and locate the published site link in the 'GitHub pages' section.
+
+### Preview Site Port
+I also deployed a preview of the site throughout the process through a local port.
+  - In codeanywhere I would select the terminal and write 'python3 -m https.server'
+  - I would select the 'Port' tab in the bottom right.
+  - I would select Port 8000 and click 'open in a new tab'.
  
